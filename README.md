@@ -3,6 +3,7 @@
 ## Overview
 
 **RiskLib** is a production-style Python library for **Monte Carlo simulation**, **Value-at-Risk (VaR)** computation, and **scenario-based stress testing**.  
+Please check branch Core
 
 
 ---
