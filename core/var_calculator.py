@@ -12,4 +12,4 @@ def parametric_var(mu, sigma, confidence_level=0.95):
 def monte_carlo_var(simulated_returns, confidence_level=0.95):
     sorted_returns = np.sort(simulated_returns)
     index = int((1 - confidence_level) * len(sorted_returns))
-    return -sorted_returns[index]
+    return -sorted_returns[index] 
